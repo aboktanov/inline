@@ -53,8 +53,7 @@ if (isset($_POST['comment'])) {
             echo '<h6>'.$result['title'].'</h6>';
             $post_id=$result['post_id'];
         }
-        echo '
-            <p> ' . $result['body'] . '</p>    ';
+        echo '<p> ' . $result['body'] . '</p>';
     }
 
 }
